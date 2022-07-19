@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="app.js">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Bibek Kunwar</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bibek Kunwar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me Bibek</h2>
+                <p class="hero_desc">I am a freelancer in Kathmandu</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/background.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p>I am Bibek Kunwar, a motivated and Eager to learn individual.<br>
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Bibek Kunwar</li>
+                                <li>Age: 22</li>
+                                <li>Occupation: Web Developer, Learner</li>
+
+                            </ul>
+                        </div>
+        
+                    </div>
+                    <div class="row mt-3">
+                        <p>Innovative, task-driven professional working as a freelancer in web design and development. Having knowledge of html css and javascript which are the fundamentals of web development.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Steve job tribute.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Steve job Clone</h4>
+                            <div class="text-center">
+                                <a href="https://github.com/bibekkunwar/stevejobclone.github.io" target="_blank" class="btn btn-success">Github</a>
+                                <a href="https://bibekkunwar.github.io/stevejobclone.github.io/" target="_blank" class="btn btn-success">Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/parallex.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Parallex website</h4>
+                            <div class="text-center">
+                                <a href="https://github.com/bibekkunwar/parallexsite.github.io" target="_blank" class="btn btn-success">Github</a>
+                                <a href="https://bibekkunwar.github.io/parallexsite.github.io/" target="_blank" class="btn btn-success">Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/David chu restro.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Restaurant-Courseera</h4>                           
+                             <div class="text-center">
+                                <a href="https://github.com/bibekkunwar/final.github.io" target="_blank" class="btn btn-success">Github</a>
+                                <a href="https://bibekkunwar.github.io/final.github.io/" target="_blank" class="btn btn-success">Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject" value="subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="type your queries here"></textarea>
+                        </div>
+                    </form>
+                    <a href="mailto:bibekkunwar0@gmail.com?subject=this.subject">
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+     <!-- footer section-->
+     <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>            </div>
+        </div>
+    </footer>
+    <!-- javascript links here-->
+<script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
