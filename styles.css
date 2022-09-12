@@ -13,6 +13,9 @@
     background-color: rgb(210, 127, 127);
     color: white;
 }
+.navbar{
+    background-color: #808080;
+}
 
 .navbar a{
     font-size: 1.4rem !important;
