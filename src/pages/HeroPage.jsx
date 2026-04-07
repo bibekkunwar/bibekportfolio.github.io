@@ -3,7 +3,7 @@ import profilePhoto from "../assets/profilePhoto.jpg";
 
 function HeroPage() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center text-white ">
+    <section className="min-h-screen flex flex-col items-center justify-center text-white mb-10 ">
       <div>
         <div className="mb-7">
           <img
