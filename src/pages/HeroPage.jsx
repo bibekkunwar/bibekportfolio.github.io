@@ -3,7 +3,7 @@ import profilePhoto from "../assets/profilePhoto.jpg";
 
 function HeroPage() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center text-white mb-10 ">
+    <section className="min-h-screen flex flex-col items-center justify-center text-white mb-6 px-8 md:px-0 pt-16 md:pt-0">
       <div>
         <div className="mb-7">
           <img
@@ -19,7 +19,7 @@ function HeroPage() {
         <h1 className="text-4xl font-bold mb-4 text-center">
           Junior Software Developer
         </h1>
-        <p className="max-w-xl text-center">
+        <p className="max-w-xl text-center px-4 md:px-0">
           I'm a Sydney-based Computer Science graduate with hands-on experience
           in frontend development and a willingness to adapt to whatever the
           role requires. Currently building projects with React, tailwindcss and
