@@ -18,6 +18,14 @@ const projects = [
     liveDemo: "https://bibekkunwar.github.io/github-profile-finder/",
     image: "",
   },
+  {
+  title: "Todo List App",
+  description: "A clean todo app with add, delete, complete and filter functionality. Built with React, Vite and Tailwind CSS.",
+  techStack: ["React", "Vite", "Tailwind CSS"],
+  gitHub: "https://github.com/bibekkunwar/todo-react-app",
+  liveDemo: "https://todo-react-app-one-theta.vercel.app",
+  image: "",
+}
 ];
 
 export default projects;
