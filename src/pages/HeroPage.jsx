@@ -38,7 +38,7 @@ function HeroPage() {
         <a
           className="bg-gray-600 hover:bg-gray-700 px-6 py-3 rounded-lg"
           href="/bibekportfolio.github.io/Bibek_Kunwar.pdf"
-          download="Bibek_Kunwar.pdf"
+          download="/Bibek_Kunwar.pdf"
         >
           Download CV
         </a>
