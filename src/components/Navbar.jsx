@@ -5,9 +5,9 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <>
+    <div className="sticky top-0 z-50 bg-slate-800">
    
-    <div className="bg-slate-800 text-white flex w-full h-24 items-center justify-between px-8 py-4 sticky top-0 z-50 ">
+    <div className="bg-slate-800 text-white flex w-full items-center justify-between px-8 py-6 ">
       <Link to="/" className="font-bold text-sm md:text-xl">
         Bibek Kunwar
       </Link>
@@ -58,7 +58,7 @@ function Navbar() {
         </div>
       )}
 
- </>
+ </div>
   );
 }
 
