@@ -25,6 +25,16 @@ const projects = [
   gitHub: "https://github.com/bibekkunwar/todo-react-app",
   liveDemo: "https://todo-react-app-one-theta.vercel.app",
   image: "",
+},
+{
+  
+  title: "Trackwise — Expense Tracker",
+  description: "A personal finance tracker built with React and Vite. Add, categorise, and delete expenses with real-time balance tracking and category filtering.",
+  techStack: ["React", "Vite", "Tailwind CSS"],
+  gitHub: "https://github.com/bibekkunwar/trackwise-expense-tracker.git",
+  liveDemo: "https://trackwise-expense-tracker.vercel.app/",
+  image: "public/logo.svg",
+
 }
 ];
 
