@@ -33,8 +33,16 @@ const projects = [
   techStack: ["React", "Vite", "Tailwind CSS"],
   gitHub: "https://github.com/bibekkunwar/trackwise-expense-tracker.git",
   liveDemo: "https://trackwise-expense-tracker.vercel.app/",
-  image: "public/logo.svg",
+  image: "",
 
+},
+{
+  title: "Resume-Reviewer",
+  description: "AI-powered resume reviewer built with React, Node.js, Express and Groq AI. Analyses resumes against job descriptions and provides structured feedback.",
+  techStack: ["React", "Vite", "Tailwind CSS", "Groq AI", "Node.js", "Express"],
+  gitHub: "https://github.com/bibekkunwar/resume-reviewer.git",
+  liveDemo: "https://resume-reviewer-two-zeta.vercel.app/",
+  image: "",
 }
 ];
 
