@@ -11,18 +11,30 @@ function ProjectsPage() {
     async function fetchRepos() {
 
       setLoading(true);
-      const response = await fetch(
+
+
+      try {
+ const response = await fetch(
         `https://api.github.com/users/bibekkunwar/repos`,
       );
 
       if (!response.ok) {
         setError("Failed to fetch data" + response.status);
-        setLoading(false)
         return;
       }
       const data = await response.json();
       setRepo(data);
-      setLoading(false)
+      }
+
+      catch(_err) {
+        console.error(_err);
+        <p> Something went wrong. Try Again!!!</p>
+      }
+
+      finally{
+        setLoading(false)
+      }
+     
     }
 
     fetchRepos();
